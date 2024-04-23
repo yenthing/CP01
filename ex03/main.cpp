@@ -4,16 +4,16 @@
 
 // int main(void)
 // {
-//     Weapon club = Weapon("crude spiked club");
-//     Weapon sword = Weapon("sword");
-
-//     HumanA bob("Bob", club);
-//     HumanB jim("Jim");
-
-//     jim.setWeapon(sword);
-//     bob.attack();
-//     jim.attack();
-//     return (0);
+    // Weapon club = Weapon("crude spiked club");
+    // Weapon sword = Weapon("sword");
+// 
+    // HumanA bob("Bob", club);
+    // HumanB jim("Jim");
+// 
+    // jim.setWeapon(sword);
+    // bob.attack();
+    // jim.attack();
+    // return (0);
 // }
 
 int main()

@@ -38,18 +38,18 @@ void Harl::complain(std::string level)
         {
             switch (i)
             {
-            case 0:
-                debug();
-            case 1:
-                info();
-            case 2:
-                warning();
-            case 3:
-                error();
+                case 0:
+                    debug();
+                case 1:
+                    info();
+                case 2:
+                    warning();
+                case 3:
+                    error();
                 break;
             }
             return;
         }
     }
-    std::cout << " Probably complaining something again" << std::endl;
+    std::cout << " Probably complaining about insignificant problems" << std::endl;
 }

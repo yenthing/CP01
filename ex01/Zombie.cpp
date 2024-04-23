@@ -1,10 +1,5 @@
 #include "Zombie.hpp"
 
-Zombie::Zombie(std::string name)
-{
-    std::cout << "Zombie " << _name << " is born" << std::endl;
-}
-
 Zombie::Zombie(void)
 {
     std::cout << "Zombie " << "(NULL)" << " is born" << std::endl;

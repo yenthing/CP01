@@ -1,8 +1,8 @@
 NAME = MoarBrianz
 RM	=		rm -f
 CFLAGS = -Wall -Werror -Wextra -std=c++98 -pedantic
-SOURCES = 	main.cpp	\
-			Zombie.cpp	\
+SOURCES = 	main.cpp		\
+			Zombie.cpp		\
 			zombieHorde.cpp 
 
 CXX = c++
@@ -12,6 +12,9 @@ all: $(NAME)
 
 $(NAME): $(OBJ)
 		$(CXX) $(CFLAGS) -o $(NAME) $(OBJ)
+
+%.o: %.cpp
+	$(CXX) $(CFLAGS) -c $< -o $@
 
 clean:
 	$(RM) $(OBJ)
